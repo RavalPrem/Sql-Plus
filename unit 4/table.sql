@@ -19,3 +19,16 @@ begin
     ';
 end;
 /
+
+
+begin
+    EXECUTE IMMEDIATE'
+        CREATE TABLE shop1(
+            item_id NUMBER PRIMARY KEY,
+            item_name VARCHAR(20) NOT NULL,
+            Quantity NUMBER(3) NOT NULL,
+            item_price NUMBER NOT NULL
+        )
+    ';
+    commit;
+end;
