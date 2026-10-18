@@ -1,0 +1,5 @@
+select * from tab;
+select * from students1;
+select * from STUDENTS2
+select * from SHOP1
+select * from PRACTICE
