@@ -10,5 +10,7 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE('There is a problem');
     END IF;
     DBMS_OUTPUT.PUT_LINE('rows effected : ' || SQL%ROWCOUNT);
+    
+    commit;
 END;
 /
