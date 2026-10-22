@@ -12,5 +12,7 @@ step 1 : declare varible in terminal
 step 2 : call that procedure with third variable binding
 
 -->
+
+
 variable ans NUMBER
 exec add1(2,3,:ans);
