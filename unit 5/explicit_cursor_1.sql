@@ -36,7 +36,7 @@ DECLARE
     emp_salary employees1.salary%TYPE;
 BEGIN
     OPEN display_employees;
-
+        
     LOOP
         FETCH display_employees INTO emp_id,emp_name,emp_salary;
 
